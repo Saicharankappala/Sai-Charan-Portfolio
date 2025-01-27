@@ -1,4 +1,13 @@
-app.post("/chat", async (req, res) => {
+import OpenAI from "openai";
+
+// Initialize OpenAI client
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+export default async (req, res) => {
+  if (req.method !== "POST") {
+    return res.status(405).json({ error: "Only POST requests are allowed." });
+  }
+
   const { prompt } = req.body;
 
   if (!prompt || typeof prompt !== "string" || prompt.trim() === "") {
@@ -32,4 +41,4 @@ app.post("/chat", async (req, res) => {
       res.status(500).json({ error: "Internal server error. Please try again later." });
     }
   }
-});
+};

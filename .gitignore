@@ -10,21 +10,27 @@
 
 # production
 /build
+/dist
 
 # misc
 .DS_Store
-.env.local
+.env                # Root .env file
+.env.local          # Local environment variables
+.env.development    # Development environment
 .env.development.local
 .env.test.local
 .env.production.local
 
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Vercel deployment files
 .vercel
 
-# backend environment file
-backend/.env
+# Ignore backend-specific files
+backend/.env        # Backend .env file
 
 # Ignore .history and .lh folders
 .history/
