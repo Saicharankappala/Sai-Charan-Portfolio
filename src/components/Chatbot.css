@@ -1,0 +1,33 @@
+.chatbot-container {
+    position: fixed; /* Keeps the chatbot fixed on the page */
+    bottom: 20px; /* 20px from the bottom */
+    right: 20px; /* 20px from the right */
+    z-index: 1000; /* Ensure it's above other elements */
+  }
+  
+  .minimize-btn {
+    background-color: #64ffda; /* Matches the portfolio theme */
+    color: #0a192f; /* Contrast for text */
+    border: none; /* Removes default border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 20px; /* Adds spacing */
+    font-size: 16px; /* Font size for better readability */
+    font-weight: bold; /* Makes the text bold */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    transition: all 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .minimize-btn:hover {
+    background-color: #52e3c2; /* Lighter shade on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+  }
+  
+  .chatbot-body {
+    margin-top: 10px; /* Adds spacing between the button and chatbot */
+    border-radius: 10px; /* Rounded corners for the chatbot */
+    overflow: hidden; /* Ensures the content stays within the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+  }
+  
+  

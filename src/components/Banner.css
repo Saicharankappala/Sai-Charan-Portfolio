@@ -1,0 +1,68 @@
+.banner {
+    position: fixed; /* Sticks the banner to the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Adjust height */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    backdrop-filter: blur(10px); /* Adds blur effect */
+    z-index: 1000;
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff; /* White logo */
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #ccd6f6; /* Light text color */
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #64ffda; /* Highlight color on hover */
+  }
+  
+  .right-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .icon:hover {
+    transform: scale(1.2); /* Slight zoom on hover */
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    color: #ccd6f6;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .close-btn:hover {
+    color: #ff6b6b; /* Red color on hover */
+  }
+  

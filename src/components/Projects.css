@@ -1,0 +1,75 @@
+.projects {
+    padding: 40px 20px;
+    background: #0a192f; /* Dark navy background */
+    color: #ffffff; /* White text color */
+  }
+  
+  .projects h1 {
+    text-align: center;
+    font-size: 3rem; /* Larger heading */
+    color: #64ffda; /* Light green heading */
+    margin-bottom: 30px;
+  }
+  
+  .project-card {
+    display: flex;
+    flex-direction: row; /* Side-by-side layout */
+    align-items: center;
+    background: #112240; /* Slightly darker background for cards */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 50px; /* Increase space between cards */
+    padding: 15px; /* Reduced padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: transform 0.3s ease; /* Add hover effect */
+    max-width: 900px; /* Restrict the card width */
+    margin-left: auto; /* Center the card horizontally */
+    margin-right: auto; /* Center the card horizontally */
+  }
+  
+  
+  
+  .project-card:hover {
+    transform: scale(1.02); /* Slightly scale up on hover */
+  }
+  
+  .project-image {
+    width: 200px; /* Reduced image size */
+    height: 150px; /* Adjusted image height */
+    border-radius: 10px; /* Slightly rounded corners */
+    object-fit: cover; /* Maintain image aspect ratio */
+    margin-right: 15px; /* Space between image and details */
+  }
+  
+  .project-details {
+    flex: 1; /* Allow the text to take the remaining space */
+  }
+  
+  .project-details h2 {
+    font-size: 1.5rem; /* Slightly smaller title size */
+    color: #ffffff; /* White text color */
+    margin-bottom: 10px;
+  }
+  
+  .project-details p {
+    font-size: 0.9rem; /* Smaller paragraph text size */
+    line-height: 1.4; /* Adjusted line spacing */
+    color: #ffffff; /* White text color */
+    margin-bottom: 15px;
+  }
+  
+  .github-link {
+    display: inline-block; /* Ensure it's inline */
+    margin-top: 10px; /* Space between description and link */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .github-logo {
+    width: 28px; /* Reduced logo size */
+    height: 28px;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .github-logo:hover {
+    transform: scale(1.2); /* Slightly enlarge the logo on hover */
+  }
+  

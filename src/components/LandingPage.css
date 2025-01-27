@@ -1,0 +1,92 @@
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: radial-gradient(circle, #ffffff, #ffffff); /* Matches your theme */
+    text-align: center;
+    padding: 20px;
+  }
+  .landing-gif {
+    max-width: 500px; /* Increase the width */
+    margin-bottom: 20px;
+    width: 100%; /* Ensure responsiveness */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  
+  .intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .intro p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .social-link {
+    text-decoration: none;
+  }
+  
+  .social-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2); /* Slight zoom effect */
+  }
+  .buttons {
+    display: flex;
+    justify-content: center; /* Centers the buttons horizontally */
+    gap: 15px; /* Adds spacing between the buttons */
+    margin: 20px auto; /* Adds space around the container */
+  }
+  
+  
+  .btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .resume-btn:hover {
+    background: #d9005a;
+  }
+  
+  .email-btn:hover {
+    background: #d9005a;
+  }
+  
+  .explore-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background: #ff006e;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .explore-button:hover {
+    background: #d9005a;
+  }
